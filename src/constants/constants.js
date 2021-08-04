@@ -14,7 +14,7 @@ export const projects = [
   {
     title: 'E-Commerce Web Application',
     description:"A simple fusion of React and Django Rest Framework to build a web application for a bag store. This is a complete application that also collects payment via FLutterwave & Stripe and also a profile page with all your purchases",
-    image: '/images/2.png',
+    image: '/images/lola.png',
     tags: ['React', 'Django', 'Redux', 'Axios'],
     source: 'https://github.com/hokagedemehin/lola-adeoti-backend',
     visit: 'https://lola-adeoti.netlify.app/',
