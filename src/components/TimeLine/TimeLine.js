@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a Software Developer with a strong knack for providing online solutions for small and medium size companies, by developing web applications across e-commerce, logistics and food services
+      Meticulous Software Developer with about a year of experience building world-class web applications in the least amount of time. I’m a firm believer in the mobile-first approach with a passion for software architecture, responsive web applications designs, and cloud computing.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <> 
@@ -101,18 +101,19 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       
-        <CarouselButton>
+        <CarouselButtons>
           {TimeLineData.map((item, index) => (
-            <CarouselButtons 
+            <CarouselButton 
               key={index}
               index={index}
               active={activeItem}
               onClick={e => handleClick(e, index)}
+              type="button"
             >
               <CarouselButtonDot active={activeItem}/>
-            </CarouselButtons>
+            </CarouselButton>
           ))}
-        </CarouselButton>
+        </CarouselButtons>
         <SectionDivider />
     </Section>
   );

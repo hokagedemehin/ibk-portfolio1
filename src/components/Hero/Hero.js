@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         I'm a Software Developer with a strong knack for providing online solutions for small and medium size companies, by developing web applications across e-commerce, logistics and food services
       </SectionText>
-      <Button onClick={() => window.location = 'http://linkedin.com'}>Contact Me</Button>
+      <Button onClick={() => window.location = 'https://wa.me/2348036051411'}>Contact Me</Button>
     </LeftSection>
   </Section>
 );

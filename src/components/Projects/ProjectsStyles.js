@@ -35,8 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  padding-top: 0.5rem;
-
+  /* padding-top: 1rem;
+  font-size: 2rem; */
 `;
 
 
@@ -105,7 +105,7 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding: 1rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
