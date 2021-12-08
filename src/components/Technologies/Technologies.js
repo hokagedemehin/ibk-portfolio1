@@ -1,15 +1,32 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiGoogleAnalytics } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import {
+  DiFirebase,
+  DiReact,
+  DiZend,
+  DiGoogleAnalytics,
+  DiGit,
+} from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development environment.
-      From Back-end to Front-end
+      I've worked with a range of technologies in the web development
+      environment. From Back-end to Front-end
     </SectionText>
     <List>
       <ListItem>
@@ -17,8 +34,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            {/* Experience with <br />
+            React.js */}
+            HTML/CSS || React || Next.js || Redux || Hooks || Material UI ||
+            Tainwind CSS || Chakra UI
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,19 +46,17 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            DJango and Firebase
+            {/* Experience with <br />
+            DJango and Firebase */}
+            Django || Firebase || Fast API || Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiGoogleAnalytics size="3rem" />
+        <DiGit size="3rem" />
         <ListContainer>
-          <ListTitle>Data Analysis</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Pandas and powerBI
-          </ListParagraph>
+          <ListTitle>Version Control</ListTitle>
+          <ListParagraph>Git || Github</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
