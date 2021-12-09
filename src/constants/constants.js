@@ -5,7 +5,7 @@ export const projects = [
   {
     title: " Tailors DB",
     description:
-      "This is a web application built specifically for tailors to help improve how their client's measurements are recorded and stored. With their phones or Tablet, they can easily retrieve any of their existing or new client's measurements in seconds at any time.",
+      "This is a web application built specifically for fashion designers and tailors to help improve how their client's measurements are recorded and stored. With their phones or Tablet, they can easily retrieve any of their existing or new client's measurements in seconds at any time.",
     image: "/images/github.png",
     tags: ["Next JS", "Firebase", "Material-UI"],
     source: "https://github.com/hokagedemehin/tailorsdb",

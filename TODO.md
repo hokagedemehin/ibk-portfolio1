@@ -1,4 +1,4 @@
 ## List of Outstanding
 
-- [ ] Change the link of the "Get CV" button
-- [ ] Complete the Readme file
+- [x] Change the link of the "Get CV" button
+- [x] Complete the Readme file
