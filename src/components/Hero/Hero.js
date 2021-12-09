@@ -23,8 +23,8 @@ const Hero = (props) => (
         applications across e-commerce, logistics and food services */}
         Versatile Software Developer with experience building world-class web
         applications in the least amount of time. A firm believer in the
-        mobile-first approach with a passion for software architecture,
-        responsive web applications designs,
+        mobile-first approach with a passion for software architecture and
+        responsive web applications designs
       </SectionText>
       <ButtonSection grid nopadding>
         <Button
@@ -34,7 +34,10 @@ const Hero = (props) => (
         </Button>
         {/* <div style={{ marginLeft: "18px" }}></div> */}
         <Button
-          onClick={() => (window.location = "https://wa.me/2348036051411")}
+          onClick={() =>
+            (window.location =
+              "https://drive.google.com/file/d/1rfdyetnNUJmr3-UeRZYFPx2TQpeeb8M_/view?usp=sharing")
+          }
         >
           Get CV
         </Button>
